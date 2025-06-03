@@ -20,10 +20,23 @@ npm run dev
 
 Example `.vscode/mcp.json` file:
 
-```json
+```json (without auth)
 {
   "servers": {
     "my-mcp-server-fb58be9c": {
+      "url": "http://localhost:3000/mcp"
+    }
+  }
+}
+```
+
+```json (with auth)
+{
+  "servers": {
+    "my-mcp-server-fb58be9c": {
+      "headers": {
+        "Authorization": "Basic [base64]"
+      },
       "url": "http://localhost:3000/mcp"
     }
   }
