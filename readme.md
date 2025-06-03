@@ -20,7 +20,8 @@ npm run dev
 
 Example `.vscode/mcp.json` file:
 
-```json (without auth)
+without auth
+```json 
 {
   "servers": {
     "my-mcp-server-fb58be9c": {
@@ -30,7 +31,8 @@ Example `.vscode/mcp.json` file:
 }
 ```
 
-```json (with auth)
+with auth
+```json 
 {
   "servers": {
     "my-mcp-server-fb58be9c": {
