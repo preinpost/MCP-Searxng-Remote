@@ -30,3 +30,17 @@ Example `.vscode/mcp.json` file:
 }
 ```
 
+## Configuration
+
+### Setting SEARXNG_URL
+
+- Choose a SearxNG instance from the [public instance list](https://searx.space/) or use your local environment.
+- Set the `SEARXNG_URL` environment variable to the instance URL.
+- Default: `http://localhost:8080`
+
+### Using Authentication
+
+If you are using a password-protected SearxNG instance, set the following environment variables for HTTP Basic Auth:
+
+- `AUTH_USERNAME`: your username
+- `AUTH_PASSWORD`: your password

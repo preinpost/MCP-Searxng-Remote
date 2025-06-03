@@ -1,0 +1,8 @@
+# Node modules, logs, and build cache
+node_modules
+dist
+npm-debug.log
+Dockerfile
+.dockerignore
+*.md
+*.env
